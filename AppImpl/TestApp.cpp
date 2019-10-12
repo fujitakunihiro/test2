@@ -26,7 +26,7 @@ void TestApp::idle()
 	std::cout << "idle()" << std::endl;
 
 
-	// Š®—¹
+	// ï¿½ï¿½ï¿½ï¿½
 	setDone();
 	return;
 }
