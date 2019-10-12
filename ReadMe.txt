@@ -1,14 +1,14 @@
-œcmake‚Åmakefileƒtƒ@ƒCƒ‹‚ğì¬
+â—cmakeã§makefileãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆ
 cd build
 
-// ƒfƒoƒbƒO—p
+// ãƒ‡ãƒãƒƒã‚°ç”¨
 cmake .. -G"MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug
 
-// ƒŠƒŠ[ƒX—p
+// ãƒªãƒªãƒ¼ã‚¹ç”¨
 cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release 
 
-œvscode‚Åƒrƒ‹ƒh
-ctrl + Shift + B‰Ÿ‰º
+â—vscodeã§ãƒ“ãƒ«ãƒ‰
+ctrl + Shift + BæŠ¼ä¸‹
 
-œvscode‚ÅÀs
+â—vscodeã§å®Ÿè¡Œ
 F5
