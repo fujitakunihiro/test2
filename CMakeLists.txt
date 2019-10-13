@@ -7,6 +7,13 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s")
 
 add_executable(main_app ../AppFW/AppBase.cpp
     ../AppFW/HandlerInterface.cpp
+    ../AppFW/AppBase.cpp
+    ../AppFW/ThreadBase.cpp
     ../AppImpl/main.cpp
     ../AppImpl/Handler.cpp
-    ../AppImpl/TestApp.cpp)
+    ../AppImpl/TestApp.cpp
+    ../AppImpl/ThreadA.cpp    
+    )
+
+find_package(Threads REQUIRED)
+target_link_libraries(main_app Threads::Threads)

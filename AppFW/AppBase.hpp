@@ -1,4 +1,6 @@
-#pragma once
+#ifndef INCLUDED_APPBASE
+#define INCLUDED_APPBASE
+
 class AppBase
 {
 public:
@@ -15,6 +17,7 @@ public:
 	void run();
 
 private:
-	bool isDone = false;
+	bool is_done_ = false;
 };
+#endif
 

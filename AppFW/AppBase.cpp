@@ -1,8 +1,9 @@
-#include "AppBase.h"
+#include "AppBase.hpp"
 
 
 
 AppBase::AppBase()
+	: is_done_(false)
 {
 }
 
@@ -12,11 +13,11 @@ AppBase::~AppBase()
 }
 
 void AppBase::setDone() {
-	isDone = true;
+	is_done_ = true;
 }
 
 bool AppBase::done() {
-	return isDone;
+	return is_done_;
 }
 
 void AppBase::run() {

@@ -12,6 +12,6 @@ public:
 public:
 	void addHandler(HandlerInterface*);
 
-	HandlerInterface* m_handler;
+	HandlerInterface* handler_;
 };
 #endif
